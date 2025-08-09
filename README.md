@@ -1,1 +1,1 @@
-# oasis-hotel-booking
+# oasis-hotel-booking-site
