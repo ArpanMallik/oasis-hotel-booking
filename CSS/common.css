@@ -1,0 +1,46 @@
+:root{
+    --teal:#2ead76;
+    --teal_hoover: #2ecdb2;
+}
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.h-font {
+    font-family: 'Merienda', cursive;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+
+.custom-bg {
+    background-color: var(--teal);
+    border:var(--teal);
+}
+
+.custom-bg:hover {
+    background-color:var(--teal_hoover);
+    border:var(--teal_hoover);
+}
+
+
+.custom-alert{
+    position: fixed;
+    top: 80px;
+    right:25px;
+}
+
+
+
